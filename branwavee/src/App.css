@@ -64,7 +64,30 @@ img {
 small {
   color: var(--color-soft);
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
+/* Message bubble styling */
+.message-bubble {
+  position: relative;
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 18px;
+  margin-bottom: 10px;
+}
+
+.sent {
+  background-color: #3b82f6;
+  color: white;
+  align-self: flex-end;
+}
+
+.received {
+  background-color: #e5e7eb;
+  color: black;
+  align-self: flex-start;
+}
 .btn {
   padding: .6rem 1.6rem;
   display: inline-block;
