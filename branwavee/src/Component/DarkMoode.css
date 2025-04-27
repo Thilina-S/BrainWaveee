@@ -1,0 +1,20 @@
+.dark-mood-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .dark-mood-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /* For dark mode theme */
+  .darkmood {
+    --text-color: white;
+    --color-bg: black;
+    --color-card: #111111;
+  }
+  
+  body {
+    background-color: var(--color-bg);
+    color: var(--text-color);
+  }
+  
